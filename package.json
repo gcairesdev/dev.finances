@@ -1,0 +1,26 @@
+{
+  "name": "dev.finances",
+  "version": "1.0.0",
+  "description": "Have more control over your expenses and expenses in Dev.Finance$",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gcairesdev/dev.finances.git"
+  },
+  "author": "Guilherme Caires",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gcairesdev/dev.finances/issues"
+  },
+  "homepage": "https://github.com/gcairesdev/dev.finances#readme",
+  "dependencies": {
+    "next": "^10.0.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
