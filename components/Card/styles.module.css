@@ -1,0 +1,29 @@
+.card {
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 0.25rem;
+    color: var(--font-primary);
+    background: var(--bg-secondary);
+}
+
+.cardTitle {
+    display: flex;
+    font-size: 1rem;
+    font-weight: normal;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cardValue {
+    font-size: 2rem;
+    margin-top: 1rem;
+    line-height: 3rem;
+}
+
+.cardTotal {
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 0.25rem;
+    color: var(--font-secondary);
+    background: var(--light-green);
+}

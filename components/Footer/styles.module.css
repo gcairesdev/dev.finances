@@ -1,0 +1,19 @@
+.footer {
+    opacity: 0.6;
+    text-align: center;
+    margin: 4rem 0 2rem;
+    color: var(--font-primary);
+}
+
+.footer p:last-child {
+    margin-top: 1rem;
+}
+
+.footer span {
+    margin: 0 3px;
+    color: var(--expense-color);
+}
+
+.footer a {
+    margin: 0 3px;
+}

@@ -1,8 +1,8 @@
 {
   "name": "dev.finances",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Have more control over your expenses and expenses in Dev.Finance$",
-  "main": "index.js",
+  "main": "./src/pages/index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

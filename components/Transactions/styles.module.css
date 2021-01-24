@@ -1,0 +1,42 @@
+.table {
+    width: 100%;
+    color: var(--font-primary);
+    border-spacing: 0 0.5rem;
+}
+
+.table tr {
+    opacity: 0.7;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    background: var(--bg-secondary);
+}
+
+.table tr:hover {
+    opacity: 1;
+}
+
+.table th {
+    text-align: left;
+    padding: 1rem 2rem;
+}
+
+.table td {
+    padding: 1rem 2rem;
+}
+
+.newTransaction {
+    display: inline-block;
+    margin-bottom: 0.8rem;
+}
+
+.description {
+    color: var(--font-primary);
+}
+
+.expense {
+    color: var(--expense-color);
+}
+
+.income {
+    color: var(--income-color);
+}
