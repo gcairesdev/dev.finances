@@ -37,11 +37,11 @@ Cadastre suas receitas e despesas e tenha um maior controle sobre sua vida finan
 </p>
 
 ## Feito com
-* [NextJS](#http://nextjs.org/)
-* [ReactJS](#https://reactjs.org/)
-* [HTML](#https://www.w3schools.com/html/)
-* [CSS](#https://www.w3schools.com/css/)
-* [JS](#https://www.w3schools.com/js/)
+* [NextJS](http://nextjs.org/)
+* [ReactJS](https://reactjs.org/)
+* [HTML](https://www.w3schools.com/html/)
+* [CSS](https://www.w3schools.com/css/)
+* [JS](https://www.w3schools.com/js/)
 
 ## Objetivo
 
@@ -56,7 +56,7 @@ Projeto desenvolvido durante a Maratona Discover da @Rocketseat.
 Para iniciar, veja os pré requisitos do projeto.
 
 ## Pré requisitos
-* [NodeJS 10.13 ou maior](#https://nodejs.org/)
+* [NodeJS 10.13 ou maior](https://nodejs.org/)
 * [MacOS, Windows (com WSL), e Linux são suportados](#)
 
 ## Instalação
