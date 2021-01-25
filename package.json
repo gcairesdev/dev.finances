@@ -1,6 +1,6 @@
 {
   "name": "dev.finances",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "description": "Have more control over your expenses and expenses in Dev.Finance$",
   "main": "./src/pages/index.js",
   "scripts": {

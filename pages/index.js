@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Header from '../components/Header';
 import Balance from '../components/Balance';
 import Transactions from '../components/Transactions';
+import TransactionFormModal from '../components/TransactionFormModal';
 import Footer from '../components/Footer';
 
 const homePage = () => {
@@ -25,6 +26,8 @@ const homePage = () => {
                 />
                 <Transactions />
             </main>
+            
+            <TransactionFormModal />
 
             <Footer />
         </>
