@@ -1,7 +1,12 @@
+.transactions {
+    display: block;
+    overflow-x: auto;
+}
+
 .table {
     width: 100%;
-    color: var(--font-primary);
     border-spacing: 0 0.5rem;
+    color: var(--font-primary);
 }
 
 .table tr {

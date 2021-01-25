@@ -1,4 +1,5 @@
 import {
+    transactions,
     table,
     income,
     expense,
@@ -8,7 +9,7 @@ import {
 
 function Transactions() {
   return (
-    <section>
+    <section className={transactions}>
         <h2 className='screenReaderOnly'>Transações</h2>
 
         <a href='#nova-transacao' className={newTransaction}>+ Nova transação</a>
