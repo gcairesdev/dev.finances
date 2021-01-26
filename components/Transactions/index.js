@@ -7,12 +7,20 @@ import {
     newTransaction,
 } from './styles.module.css';
 
-function Transactions() {
+function Transactions({
+    setModalActive
+}) {
   return (
     <section className={transactions}>
         <h2 className='screenReaderOnly'>Transações</h2>
 
-        <a href='#nova-transacao' className={newTransaction}>+ Nova transação</a>
+        <a
+            href='#nova-transacao'
+            className={newTransaction}
+            onClick={() => setModalActive(true)}
+        >
+            + Nova transação
+        </a>
 
         <table className={table}>
             <thead>

@@ -1,3 +1,5 @@
+import { useState } from 'react';
+
 import Head from 'next/head';
 import Header from '../components/Header';
 import Balance from '../components/Balance';
@@ -6,6 +8,8 @@ import TransactionFormModal from '../components/TransactionFormModal';
 import Footer from '../components/Footer';
 
 const homePage = () => {
+    const [modalActive, setModalActive] = useState(false);
+
     return (
         <>
             <Head>
@@ -24,10 +28,10 @@ const homePage = () => {
                         total: 'R$ 3.000,00',
                     }}
                 />
-                <Transactions />
+                <Transactions setModalActive={setModalActive} />
             </main>
             
-            <TransactionFormModal />
+            <TransactionFormModal isActive={modalActive} setModalActive={setModalActive} />
 
             <Footer />
         </>

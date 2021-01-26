@@ -1,13 +1,17 @@
 import {
     modalOverlay,
     modal,
+    active,
     form,
     inputGroup,
 } from './styles.module.css';
 
-const TransactionFormModal = () => {
+const TransactionFormModal = ({
+    isActive,
+    setModalActive
+}) => {
     return (
-        <div className={modalOverlay}>
+        <div className={[modalOverlay, isActive && active].join(' ')}>
             <div className={modal}>
                 <div>
                     <h2>Nova Transação</h2>
@@ -49,7 +53,12 @@ const TransactionFormModal = () => {
                         </div>
 
                         <div className={inputGroup}>
-                            <a href='#transacao-cancelada'>Cancelar</a>
+                            <a
+                                href='#transacao-cancelada'
+                                onClick={() => setModalActive(false)}
+                            >
+                                Cancelar
+                            </a>
                             <button type='submit'>Salvar</button>
                         </div>
                     </form>
